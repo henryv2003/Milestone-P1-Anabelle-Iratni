@@ -5,9 +5,7 @@
 
 html{
     scroll-behavior: smooth;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
+
 }
 
 body{
@@ -89,13 +87,13 @@ hr{
     
     hr{
     min-height: 1px;
-    width:20rem;
+    width:16rem;
     border:0;
     background-color: rgb(255, 255, 255);
      margin: 0;
      position: absolute;
-     top: 39.5rem;
-    left:1.7rem;
+     top: 39rem;
+    left:2rem;
 }
 }
 /*--Header-&-Background--*/
@@ -130,7 +128,7 @@ hr{
 }
 
 .navbar-brand {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: white;
     padding-left: 3px;
     text-transform: uppercase;
@@ -374,7 +372,7 @@ text-align: justify;
 
 /*--PROJECTS-&-EXPERIENCE--*/
 #projects {
-    height: 140vh;
+    height: 100vh;
     margin-top: 200px;
 }
 
@@ -402,7 +400,8 @@ text-align: justify;
 }
 
 .project-title {
-    text-decoration: underline;
+    text-decoration: none;
+    font-family: 'Nixie One', cursive;
 }
 
 .projects-section {
@@ -417,7 +416,7 @@ text-align: justify;
 
 .project-1  a {
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   font-family:'Nixie One', cursive;
   letter-spacing: 3px;
@@ -436,7 +435,7 @@ text-align: justify;
   margin-bottom:40px;
 }
 
-.project-1 h4,h5 {
+.project-1 {
   font-family: 'Nixie One', cursive;
   letter-spacing: 1px;
 }
@@ -448,6 +447,7 @@ text-align: justify;
   color:#ffffff;  
   letter-spacing: 3px; 
   text-align: center; 
+  font-family: 'Nixie One', cursive;
 }
 
 .project-2 .paragraph {
@@ -460,7 +460,7 @@ text-align: justify;
   margin-bottom:40px;
 }
 
-.project-2 h4,h5 {
+.project-2 project-tittle2 {
   font-family: 'Nixie One', cursive;
   letter-spacing: 1px;
 }
@@ -477,7 +477,7 @@ text-align: justify;
     font-size: 35px;
     text-align: center;
     font-weight: 500;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .project-1{
@@ -492,15 +492,19 @@ text-align: justify;
 }
 
 .project-title2 {
-   text-decoration: underline;
+   text-decoration: none;
+   font-family: 'Nixie One', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+
 }
 
 .projects-right {
     background-position: 3px 12px, 100% 50%;
     min-height: 340px;
     position: relative;
-    bottom: 132.2rem;
-    left:4px;
+    bottom: 120rem;
+    left: 0px;
     border-radius: 10px;
         }
            
@@ -515,20 +519,22 @@ text-align: justify;
 
 }
 
-.project-1 h4,h5 {
+.project-1 .project-title {
     font-family: 'Nixie One', cursive;
     letter-spacing: 1px;
 }
 
 .project-1  a {
+    font-family: 'Nixie One', cursive;
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
     
 .project-1  a:hover {
+    font-family: 'Nixie One', cursive;
     color: rgb(153,12,12);
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 }
@@ -558,7 +564,7 @@ text-align: justify;
  }
 
  .contact-section {
-     padding: 18rem 0rem 1rem 5rem;
+     padding: 15rem 0rem 1rem 5rem;
      font-size: 2.8rem;
      font-weight: 500;
      text-decoration: underline;
@@ -654,16 +660,17 @@ strong:hover{
 }
     
 #contact-form {
-   margin-top: 73.2rem;
+   margin-top: 55.2rem;
    margin-right: 30px;
 }
 
 .contact-section {
   position: relative;
-  font-size: 30px;
-  top:74rem;
-  right:12px;
-  z-index: 2;
+  width: 100%;
+    font-size: 29px;
+    top: 55rem;
+    right: 49px;
+    z-index: 2;
 }
 
 .contact-left p { 
@@ -673,7 +680,7 @@ strong:hover{
     bottom: -55rem;
     font-size: 10px;
     left: -14px;
-    font-family: 'Nixie One', cursive;;
+    font-family: 'Nixie One', cursive;
 }
 
 .contact-left p strong {
@@ -716,7 +723,7 @@ strong:hover{
    max-height:437px;
     width: 100%;
     background-image: url(../images/Anabelle-Logo2.png);
-    background-position: 2px 2px, 100% 50%;
+    background-position: 2px 52px, 100% 50%;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: scroll, scroll;
@@ -727,13 +734,13 @@ strong:hover{
 
 }
 
-/*--------------------------------CONTACT-----------------------------*/
+/*--CONTACT--*/
 
 
 
 
 
-/*-------------------------------GOTOP-BTN--------------------------------*/
+/*--GOTOP-BTN--*/
 
     .gotopbtn .fas{
         font-size: 40px;
@@ -832,31 +839,31 @@ list-style: none;
  }
     
 @media screen and (max-width: 770px){
-    #social-media ul {
-    margin: 0;
-  padding: 12px;
+#social-media ul {
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 37.5rem;
-  left:11.7rem;
+  left:9.7rem;
   transform: translate(-50%, -50%);
 }
 
 #social-media ul li {
 list-style: none;
-  margin: 0 13px;
+  margin: 0 6px;
 }
 
 #social-media ul li a{
-    width: 60px;
-  height: 60px;
-  line-height: 53px;
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
  
   text-align: center;
 }
 
 #social-media ul .fab {
-    margin-top: 11px;
-    font-size: 38px;
+    margin-top: 5px;
+    font-size: 30px;
 }
 }
 
@@ -877,7 +884,7 @@ list-style: none;
 
 .social-links ul {
     display:flex;
-    width: 363px;
+    width: 353px;
     height: 1px;
     padding-top: 38px;
     margin-left: 22rem;
@@ -948,32 +955,32 @@ margin: 0 100px;
 @media screen and (max-width: 770px){
 footer {
     position: relative;
-    width: 371px;
 }
 
 .social-links ul{
 display:flex;
+width: fit-content;
 position: relative;
-right: 11.5rem;
+right: 13.1rem;
 top:9px;
 } 
 
 .social-links ul li {
   list-style: none;
-  margin: 0 17px;
+  margin: 0 8px;
 }
 
 .social-links ul li a {
-  width: 50px;
-  height: 50px;
-  line-height: 53px;
+  width: 45px;
+  height: 45px;
+  line-height: 42px;
 }
 
 .social-links ul .fab {
- margin-top: 12px;
- font-size: 25;
+ margin-top: 6px;
+ font-size: 28px;
 }
 }
 
 
-/*-----------------------------FOOTER-----------------------------------------*/
+/*--FOOTER--*/
