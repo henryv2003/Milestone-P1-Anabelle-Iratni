@@ -31,13 +31,6 @@ body{
     background:url(../images/edited2.jpg)no-repeat top center / cover;
     flex-direction: column;
     background-position: 0px 0px, 100% 50%;
-    white-space: normal;
-    object-fit: fill;
-    -o-object-fit: fill;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction:normal;
-    -webkit-flex-direction:column;
-    -ms-flex-direction: column;
     overflow: visible;
 }
 
