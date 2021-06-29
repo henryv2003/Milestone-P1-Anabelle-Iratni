@@ -60,7 +60,7 @@ hr{
      left:12rem;   
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 320px){
    
     .header-background {
     min-height: 501px;
@@ -87,6 +87,9 @@ hr{
      position: absolute;
      top: 39rem;
     left:2rem;
+
+    @media (min-width: 320px)
+      
 }
 }
 /*--Header-&-Background--*/
@@ -224,7 +227,7 @@ hr{
     letter-spacing: 1px;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 320px){
 .sticky-nav {
     position: sticky;
     position: -webkit-sticky;
@@ -303,7 +306,7 @@ line-height: 1.4;
     font-style: italic;
     letter-spacing: 2px;}
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 320px){
 
 .column-left1 {
     min-height: 371px;
@@ -458,7 +461,7 @@ text-align: justify;
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 320px){
 
 #projects {
     height: 140vh;
@@ -645,7 +648,7 @@ strong:hover{
 }
 
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 320px){
 
 #contact{
    height: auto;
@@ -757,7 +760,7 @@ strong:hover{
         background: rgb(123, 2, 2);
     }
 
-    @media screen and (max-width: 770px){
+    @media screen and (max-width:320px){
 
     .gotopbtn{
         display: none;   
@@ -831,7 +834,7 @@ list-style: none;
   
  }
     
-@media screen and (max-width: 770px){
+@media screen and (max-width: 320px){
 #social-media ul {
   margin: 0;
   padding: 0;
@@ -945,7 +948,7 @@ margin: 0 100px;
     padding: 10px;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 320px){
 footer {
     position: relative;
 }
