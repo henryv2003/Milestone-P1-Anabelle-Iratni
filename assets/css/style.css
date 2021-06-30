@@ -60,6 +60,31 @@ hr{
      left:12rem;   
 }
 
+@media screen and (max-width: 768px){
+    .header-background {
+    min-height: 829px;
+    width: 100%;
+    position: static;
+    display: block;
+    overflow: visible;
+    background-position: 0px 0px, 100% 50%;
+    }
+
+    .overlay{
+        display: none;
+    }
+    
+    hr{
+    min-height: 1px;
+    width: 39rem;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 60.5rem;
+    left: 4.3rem;
+}
+
 @media screen and (max-width: 320px){
    
     .header-background {
@@ -87,11 +112,11 @@ hr{
      position: absolute;
      top: 39rem;
     left:2rem;
+    
+}
+}
 
-    @media (min-width: 320px)
-      
-}
-}
+
 /*--Header-&-Background--*/
 
 
@@ -306,6 +331,68 @@ line-height: 1.4;
     font-style: italic;
     letter-spacing: 2px;}
 
+    @media screen and (max-width: 768px){
+
+.column-left1 {
+    min-height: 547px;
+    background-position: 114px 8px, 100% 50%;
+    position: relative;
+    bottom: -240px;
+}
+
+.col-sm-11{
+    width: 98%;
+}
+
+
+.column-right span {
+    font-family:'Nixie One', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 100px; 
+}
+
+.column-right .paragraph span {
+    font-size: 16px;
+     margin-bottom: 20px;
+}
+    
+
+.column-right .section-title{
+padding: 20rem 0rem 0rem 8rem;
+font-size: 2.8rem;
+color:white;
+font-weight: 500;
+text-align: center;
+text-decoration: underline;
+font-family:'Nixie One', cursive;
+}
+
+.column-right p {
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
+
+.column-right p,.span2 {
+    padding-top: 1px;
+}
+
+.column-right .paragraph{
+margin-top:5px;
+margin-left: -5px;
+width: 100%;
+padding: 0.1rem 0rem 0.2rem 1rem;
+font-size: 15px;
+color:white;
+line-height: 1.3;
+text-align: justify;
+}
+}
+
+
 @media screen and (max-width: 320px){
 
 .column-left1 {
@@ -362,6 +449,8 @@ line-height: 1.3;
 text-align: justify;
 }
 }
+
+
 /*--ABOUT--*/
 
 
@@ -447,19 +536,102 @@ text-align: justify;
 }
 
 .project-2 .paragraph {
-  font-size: 16px;
+  font-size: 20px;
   color:#ffffff;
   line-height: 1.4;
   text-decoration: none;
   font-family: relative;
   text-align: center;
-  margin-bottom:40px;
+  margin-bottom:30px;
 }
 
-.project-2 project-tittle2 {
+.project-2 .project-tittle2 {
   font-family: 'Nixie One', cursive;
   letter-spacing: 1px;
 }
+
+@media screen and (max-width: 768px){
+
+#projects {
+    height: 180vh;}
+    
+
+#projects .projects-section {
+    position: static;
+    margin-left:0.3rem;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.project-1{
+    width: 100%;
+    position: relative;
+    top: 43rem;
+    right: 2rem;
+}
+
+.project-2{
+    width: 100%;
+    right: 3rem;
+    position: relative;
+    top: 43rem;
+}
+
+.project-title2 {
+   font-size: 28px;
+    text-decoration: none;
+    font-family: 'Nixie One', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+
+}
+
+.projects-right {
+    background-position: 0rem 0px, 100% 50%;
+    min-height: 619px;
+    position: relative;
+    bottom: 63rem;
+    left: 3.5rem;
+    border-radius: 15px;
+}
+        }
+           
+.project-1 .paragraph {
+     width: 100%;
+     padding: 0rem 3.8rem 0rem 4rem;
+     font-size: 20px;
+     color:#ffffff;
+     line-height: 1.4;
+     text-decoration: none;
+     font-family: relative;
+
+}
+
+.project-1 .project-title {
+    font-family: 'Nixie One', cursive;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.project-1  a {
+    font-size: 28px;
+    font-family: 'Nixie One', cursive;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+    
+.project-1  a:hover {
+    font-family: 'Nixie One', cursive;
+    color: rgb(153,12,12);
+    text-decoration: none;
+    cursor: pointer;
+}
+}
+
 
 @media screen and (max-width: 320px){
 
@@ -473,34 +645,46 @@ text-align: justify;
     font-size: 35px;
     text-align: center;
     font-weight: 500;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .project-1{
     width: 100%;
-    margin-top: 350px;
-    margin-left: -5px;
+    top: 18rem;
+    margin-left: 36px;
 }
 
 .project-2{
     width: 100%;
-    margin-left: -5px;
+    margin-left: 48px;
+    position: relative;
+    top: 18rem;
 }
 
 .project-title2 {
+    font-size: 18px;
    text-decoration: none;
    font-family: 'Nixie One', cursive;
     letter-spacing: 1px;
     margin-bottom: 1rem;
 
 }
+.project-2 .paragraph {
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.4;
+    text-decoration: none;
+    font-family: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 .projects-right {
     background-position: 3px 12px, 100% 50%;
     min-height: 340px;
     position: relative;
-    bottom: 120rem;
-    left: 0px;
+    bottom: 95.3rem;
+    left: 0rem;
     border-radius: 10px;
         }
            
@@ -512,12 +696,14 @@ text-align: justify;
      line-height: 1.4;
      text-decoration: none;
      font-family: relative;
+     margin-bottom: 30px;
 
 }
 
 .project-1 .project-title {
     font-family: 'Nixie One', cursive;
     letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .project-1  a {
@@ -525,6 +711,7 @@ text-align: justify;
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
+    font-size: 18px;
 }
     
 .project-1  a:hover {
@@ -534,6 +721,8 @@ text-align: justify;
     cursor: pointer;
 }
 }
+
+
      
     /*--PROJECTS-&-EXPERIENCE--*/
 
@@ -648,6 +837,96 @@ strong:hover{
 }
 
 
+@media screen and (max-width: 768px){
+
+#contact{
+   height: auto;
+   margin-top: 100px;
+}
+    
+#contact-form {
+   margin-top: -17.6rem;
+    margin-right: 0px;
+}
+
+.contact-section {
+    padding: 15rem 0rem 1rem 0rem;
+  position: relative;
+    width: 100%;
+    font-size: 45px;
+    bottom: 20rem;
+    left: 0rem;
+    z-index: 2;
+}
+
+.contact-left p { 
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -18rem;
+    font-size: 10px;
+    left: -14px;
+    font-family: 'Nixie One', cursive;
+}
+
+.contact-left .paragraph {
+    padding: 0rem 0rem 0rem 2rem;
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: 'Nixie One', cursive;
+    font-weight: 500;
+}
+
+.contact-left p strong {
+    font-size: 40px;
+    text-decoration:underline;
+    font-family: 'Nixie One', cursive;
+}
+
+#contact-form .form-control {
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    height: auto;
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 0.2rem;
+    transition: all .2s ease-in-out;
+    text-align: left;
+}
+
+
+#contact-form textarea.form-control {
+    min-height: 15rem;
+}
+
+#contact-form button#valid-form {
+    padding: 1.3rem 4.2rem;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    border: none;
+    display: inline-block;
+}
+
+
+.contact-right {
+    max-height: 600px;
+    width: 100%;
+    background-image: url(../images/Anabelle-Logo2.png);
+    background-position: 129px 5px, 100% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll, scroll;
+    margin-top: 0px;
+}
+}
+
+
 @media screen and (max-width: 320px){
 
 #contact{
@@ -656,7 +935,7 @@ strong:hover{
 }
     
 #contact-form {
-   margin-top: 55.2rem;
+   margin-top: 46.4rem;
    margin-right: 30px;
 }
 
@@ -664,8 +943,8 @@ strong:hover{
   position: relative;
   width: 100%;
     font-size: 29px;
-    top: 55rem;
-    right: 49px;
+    top: 46rem;
+    left: 0.2rem;
     z-index: 2;
 }
 
@@ -673,14 +952,24 @@ strong:hover{
     padding: 0;
     margin: 0;
     position: relative;
-    bottom: -55rem;
+    top: 46rem;
     font-size: 10px;
     left: -14px;
     font-family: 'Nixie One', cursive;
 }
 
+.contact-left .paragraph {
+    padding: 0rem 0rem 0rem 1rem;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Nixie One', cursive;
+    font-weight: 500;
+}
+
+
+
 .contact-left p strong {
-    font-size: 20px;
+    font-size: 28px;
     text-decoration:underline;
     font-family: 'Nixie One', cursive;
 }
@@ -724,10 +1013,6 @@ strong:hover{
     background-repeat: no-repeat;
     background-attachment: scroll, scroll;
     margin-top: 15px;}
-
-
-
-
 }
 
 /*--CONTACT--*/
@@ -760,10 +1045,16 @@ strong:hover{
         background: rgb(123, 2, 2);
     }
 
-    @media screen and (max-width:320px){
-
+     @media screen and (max-width:768px){
     .gotopbtn{
-        display: none;   
+    display: none;   
+    }
+    }
+
+
+    @media screen and (max-width:320px){
+    .gotopbtn{
+     display: none;   
     }
     }
 
@@ -833,6 +1124,35 @@ list-style: none;
     font-size: 50px;
   
  }
+
+ @media screen and (max-width: 768px){
+#social-media ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 58.1rem;
+    left: 23.6rem;
+  transform: translate(-50%, -50%);
+}
+
+#social-media ul li {
+list-style: none;
+  margin: 50px;
+}
+
+#social-media ul li a{
+  width: 80px;
+  height: 80px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#social-media ul .fab {
+    margin-top: 13px;
+    font-size: 55px;
+}
+ }
+
     
 @media screen and (max-width: 320px){
 #social-media ul {
@@ -846,18 +1166,16 @@ list-style: none;
 
 #social-media ul li {
 list-style: none;
-  margin: 0 6px;
+  margin: 06px;
 }
 
 #social-media ul li a{
   width: 50px;
   height: 50px;
   line-height: 48px;
- 
-  text-align: center;
 }
 
-#social-media ul .fab {
+#social-media ul .fab{
     margin-top: 5px;
     font-size: 30px;
 }
@@ -865,8 +1183,6 @@ list-style: none;
 
 
 /*--SOCIAL-MEDIA-ICONS--*/
-
-
 
 
 /*--FOOTER--*/
@@ -948,6 +1264,37 @@ margin: 0 100px;
     padding: 10px;
 }
 
+@media screen and (max-width: 768px){
+footer {
+    position: relative;
+}
+
+.social-links ul{
+display:flex;
+width: fit-content;
+position: relative;
+right: -1rem;
+top:-50px;
+} 
+
+.social-links ul li {
+  list-style: none;
+  margin: 50px;
+}
+
+.social-links ul li a {
+  width: 80px;
+  height: 80px;
+  line-height: 42px;
+}
+
+.social-links ul .fab {
+ margin-top: 13px;
+ font-size: 55px;
+}
+}
+
+
 @media screen and (max-width: 320px){
 footer {
     position: relative;
@@ -958,12 +1305,12 @@ display:flex;
 width: fit-content;
 position: relative;
 right: 13.1rem;
-top:9px;
+top:0;
 } 
 
 .social-links ul li {
   list-style: none;
-  margin: 0 8px;
+  margin: 14px;
 }
 
 .social-links ul li a {
