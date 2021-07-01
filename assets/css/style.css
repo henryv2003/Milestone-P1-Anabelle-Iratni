@@ -84,6 +84,7 @@ hr{
     top: 60.5rem;
     left: 4.3rem;
 }
+}
 
 @media screen and (max-width: 320px){
    
@@ -550,6 +551,7 @@ text-align: justify;
   letter-spacing: 1px;
 }
 
+
 @media screen and (max-width: 768px){
 
 #projects {
@@ -596,7 +598,7 @@ text-align: justify;
     left: 3.5rem;
     border-radius: 15px;
 }
-        }
+        
            
 .project-1 .paragraph {
      width: 100%;
@@ -1324,6 +1326,5 @@ top:0;
  font-size: 28px;
 }
 }
-
 
 /*--FOOTER--*/
