@@ -866,6 +866,12 @@ margin: 8rem auto;
         padding-right: 0;
         padding-left: 0;
     }
+
+    .social-links ul {
+      margin: 0rem 0rem;
+      
+    
+    } 
 }
 
 
