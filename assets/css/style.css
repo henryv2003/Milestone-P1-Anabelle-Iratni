@@ -32,11 +32,68 @@
         width: 100%;
     }
 
-    @media screen and (max-width: 360px){
+    
+    @media screen and (max-width: 1200px){
         .header-background {
-            height: 25rem;
+            height: 55rem;
         }
     }
+
+
+    @media screen and (max-width: 1024px){
+        .header-background {
+            height: 50rem;
+        }
+    }
+
+
+    @media screen and (max-width: 900px){
+        .header-background {
+            height: 56rem;
+        }
+    }
+
+
+    @media screen and (max-width: 768px){
+        .header-background {
+            height: 56rem;
+        }
+    }
+     @media screen and (max-width: 600px){
+        .header-background {
+            height: 41rem;
+            
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .header-background {
+            height: 36rem;
+        }
+    }
+
+    @media screen and (max-width: 420px){
+        .header-background {
+            height: 32rem;
+        }
+    }
+
+
+    @media screen and (max-width: 400px)
+    {
+        .header-background {
+            height: 30rem;
+        }
+    }
+
+    
+    @media screen and (max-width: 360px){
+        .header-background {
+            height: 28rem;
+        }
+    }
+
+
 
 
 .sub-text{
@@ -54,7 +111,9 @@
     font-family:  'Nixie One', cursive;
 }
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 1000px) {
     .sub-text {
         display: none;
     }
@@ -72,9 +131,28 @@ hr{
     margin: auto;
     }
 
+    @media screen and (max-width: 768px){
+        hr {
+            width: 68%;
+         }
+    } 
+
+    @media screen and (max-width: 600px) {
+        hr {
+           width: 63%;
+        }
+    }
+
+    @media screen and (max-width: 480px){    
+    
+        hr {
+            width: 68%;
+        }
+    }   
+
     @media screen and (max-width: 360px){
         hr {
-            width: 75%;
+            width: 69%;
         }
     }
 
@@ -194,6 +272,110 @@ hr{
     color: white;
     border: 1px solid white;
 }
+@media screen and (max-width: 768px){
+    .navbar-brand {
+        font-size: 1.8rem;
+        position: relative;
+        left: 0%;
+        
+    }
+    .navbar {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .dropdown-menu{
+        background-color:transparent;
+        border: none;
+        font-weight: unset;
+        padding-left: 2%;
+        
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1.1rem;
+        position: relative;
+        line-height: 1.1;
+        left: 0%;
+    }
+
+    .dropdown-menu .dropdown-item {
+        color: #ffffff;
+        letter-spacing: 1px;
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+        position: relative;
+        left: 3%;
+        
+    }
+    .navbar {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .dropdown-menu{
+        background-color:transparent;
+        border: none;
+        font-weight: unset;
+        padding-left: 5%;
+        
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1.1rem;
+        position: relative;
+        line-height: 1.1;
+        left: 3%;
+    }
+
+    .dropdown-menu .dropdown-item {
+        color: #ffffff;
+        letter-spacing: 1px;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+        position: relative;
+        left: 3%;
+        
+    }
+    .navbar {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .dropdown-menu{
+        background-color:transparent;
+        border: none;
+        font-weight: unset;
+        padding-left: 5%;
+        
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1.1rem;
+        position: relative;
+        line-height: 1.1;
+        left: 3%;
+    }
+
+    .dropdown-menu .dropdown-item {
+        color: #ffffff;
+        letter-spacing: 1px;
+        font-size: 1.3rem;
+    }
+}
 
 @media screen and (max-width: 360px) {
     .navbar-brand {
@@ -228,9 +410,6 @@ hr{
         font-size: 1.2rem;
     }
 }
-
- 
-
 /*--Navbar--*/
 
 
@@ -293,20 +472,55 @@ background: rgb(143, 1, 1);
 #social-media ul .fab {
     margin-top: 0.9rem;
     font-size: 2rem;
-  
+}
+    @media screen and (max-width: 768px){
+        #social-media ul {
+            margin: 5rem 5.4rem 0;
+            width: 75%;
+        }
+     }
+
+ 
+
+ @media screen and (max-width: 600px){
+    #social-media ul {
+        margin: 2rem 4.1rem 0;
+        width: 75%;
+    }
  }
 
+@media screen and (max-width: 480px){
+    
+    #social-media ul {
+        margin: 2rem 3.1rem 0;
+        width: 75%;
+    }
+ }
+
+ @media screen and (max-width: 420px){
+     #social-media ul {
+        margin: 2rem 2.2rem 0;
+        width: 77%;
+    }
+ }
+
+ @media screen and (max-width: 400px){
+    
+    #social-media ul {
+        margin: 2rem 2rem 0;
+        width: 77%;
+    }
+ }
 
  @media screen and (max-width: 360px) {
     #social-media ul {
         margin: 2rem 1.3rem 0;
-        width: 80%;
+        width: 81%;
     }
  }
 
  #social-media ul li a {
-     
-    width: 2rem;
+     width: 2rem;
     height: 2rem; 
   }
 
@@ -315,6 +529,7 @@ background: rgb(143, 1, 1);
     font-size: 1.2rem;
   
  }
+
 
     
 
@@ -388,12 +603,52 @@ font-family: 'Nixie One', cursive;
     font-weight: bolder;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
 
     .column-left1 {
         background-image: url(../images/anabelleColumnleft1.jpg);
-        height: 30rem;
-         margin-top: 3rem;
+        height: 35rem;
+         margin-top: 5rem;
+        width: 100%;
+        position: relative;
+        left: 8%;
+       
+    }
+
+    .column-right .section-title h1 {
+        font-size: 2.5rem;
+        position: relative;
+        top: -42rem;
+        padding-bottom: 0;
+        padding-left: 10%;
+        }
+
+    .column-right .sub-header span {
+        font-weight: bold;
+        padding-left: 10%;
+        }
+    
+    .column-right .sub-header p {
+        position: relative;
+        top: -2rem;
+        }
+
+    .column-right .paragraph {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        text-align: justify;
+        padding-left: 10%;
+        position: relative;
+        top: -3rem;
+        }
+}
+
+@media screen and (max-width: 600px) {
+
+    .column-left1 {
+        background-image: url(../images/anabelleColumnleft1.jpg);
+        height: 35rem;
+         margin-top: 5rem;
         width: 100%;
        
     }
@@ -401,19 +656,56 @@ font-family: 'Nixie One', cursive;
     .column-right .section-title h1 {
         font-size: 2rem;
         position: relative;
-        top: -35rem;
+        top: -40rem;
         padding-bottom: 0;
-        }
+        padding-left: 6%;
+    }
+
+    .column-right .sub-header span {
+        font-weight: bold;
+        padding-left: 9%;
+    }
+    
+    .column-right .sub-header p {
+        position: relative;
+        top: -2rem;
+    }
+
+    .column-right .paragraph{
+        font-size: 1.1rem;
+        line-height: 1.4;
+        text-align: justify;
+        padding-left: 9%;
+        position: relative;
+        top: -2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .column-left1 {
+        background-image: url(../images/anabelleColumnleft1.jpg);
+        height: 30rem;
+         margin-top: 5rem;
+        width: 100%;  
+    }
+
+    .column-right .section-title h1 {
+        font-size: 2rem;
+        position: relative;
+        top: -34rem;
+        padding-bottom: 0;
+    }
 
     .column-right .sub-header span {
         font-weight: bold;
         padding-left: 2%;
-        }
+    }
     
     .column-right .sub-header p {
         position: relative;
-        top: -7rem;
-        }
+        top: -2rem;
+    }
 
     .column-right .paragraph{
         font-size: 1rem;
@@ -422,8 +714,82 @@ font-family: 'Nixie One', cursive;
         padding-left: 2%;
         padding-right: 2%;
         position: relative;
+        top: -2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .column-left1 {
+        background-image: url(../images/anabelleColumnleft1.jpg);
+        height: 30rem;
+         margin-top: 1rem;
+        width: 100%; 
+    }
+
+    .column-right .section-title h1 {
+        font-size: 2rem;
+        position: relative;
+        top: -34rem;
+        padding-bottom: 0;
+    }
+
+    .column-right .sub-header span {
+        font-weight: bold;
+        padding-left: 2%;
+    }
+    
+    .column-right .sub-header p {
+        position: relative;
+        top: -5rem;
+    }
+
+    .column-right .paragraph{
+        font-size: 1rem;
+        line-height: 1.3;
+        text-align: justify;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: relative;
+        top: -5.9rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .column-left1 {
+        background-image: url(../images/anabelleColumnleft1.jpg);
+        height: 30rem;
+         margin-top: 4rem;
+        width: 100%;  
+    }
+
+    .column-right .section-title h1 {
+        font-size: 2rem;
+        position: relative;
+        top: -35rem;
+        padding-bottom: 0;
+    }
+
+    .column-right .sub-header span {
+        font-weight: bold;
+        padding-left: 2%;
+    }
+    
+    .column-right .sub-header p {
+        position: relative;
         top: -7rem;
-        }
+    }
+
+    .column-right .paragraph{
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: justify;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: relative;
+        top: -6.5rem;
+    }
 }
 /*--ABOUT--*/
 
@@ -485,6 +851,143 @@ margin: 8rem auto;
     width: 48%;
 }
 
+@media screen and (max-width: 768px){
+    .projects-section h1 {
+        font-size: 2.5rem;
+        text-align: start;
+        position: relative;
+        bottom: 5rem;
+        text-transform: uppercase;
+        width: 100%;
+    
+    }
+
+    .projects-right {
+        background-image:url(../images/anaplaying.PNG);
+        height: 55rem;
+        margin-top: 0rem;
+       width: 100%;
+       position: relative;
+       bottom: 61rem;
+    }
+
+    .project-1 {
+        width: 100%;
+      position: relative;
+      top: 43rem; 
+      padding-left: 12%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .projects-section h1 {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        bottom: 5rem;
+        text-transform: uppercase;
+        width: 100%;    
+    }
+
+    .projects-right {
+        background-image:url(../images/anaplaying.PNG);
+        height: 40rem;
+        margin-top: 12rem;
+       width: 100%;
+       position: relative;
+       bottom: 78rem;
+    }
+
+    .project-1 {
+        width: 96%;
+      position: relative;
+      top: 33.5rem; 
+      padding-left: 12%;
+    }
+
+
+@media screen and (max-width: 480px){
+    .projects-section h1 {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        bottom: 7rem;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    .projects-right {
+        background-image:url(../images/anaplaying.PNG);
+        height: 35rem;
+        margin-top: 13rem;
+       width: 100%;
+       position: relative;
+       bottom: 80rem;
+    }
+
+    .project-1 {
+        width: 96%;
+      position: relative;
+      top: 26rem; 
+      padding-left: 3%;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .projects-section h1 {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 7rem;
+    text-transform: uppercase;
+    width: 98%;
+    }
+    
+    .projects-right {
+    background-image:url(../images/anaplaying.PNG);
+    height: 32rem;
+    margin-top: 10rem;
+    width: 100%;
+    position: relative;
+    bottom: 80rem;
+    }
+    
+    .project-1 {
+    width: 95%;
+    position: relative;
+    top: 20rem; 
+    padding-left: 3%;
+    }  
+}
+
+@media screen and (max-width: 400px){
+    .projects-section h1 {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        bottom: 10rem;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    .projects-right {
+        background-image:url(../images/anaplaying.PNG);
+        height: 30rem;
+        margin-top: 7rem;
+        width: 100%;
+        position: relative;
+        bottom: 80rem;
+    }
+
+    .project-1 {
+        width: 95%;
+        position: relative;
+        top: 15.5rem; 
+        padding-left: 3%;
+    }
+}
+
 @media screen and (max-width: 360px){
     .projects-section h1 {
         font-size: 2rem;
@@ -500,131 +1003,292 @@ margin: 8rem auto;
         background-image:url(../images/anaplaying.PNG);
         height: 30rem;
         margin-top: 6rem;
-       width: 100%;
-       position: relative;
-       bottom: 80rem;
+        width: 100%;
+        position: relative;
+        bottom: 80rem;
     }
 
     .project-1 {
         width: 95%;
-      position: relative;
-      top: 18rem; 
-      padding-left: 3%;
+        position: relative;
+        top: 18rem; 
+        padding-left: 3%;
     }
-
 }
      /*--PROJECTS-&-EXPERIENCE--*/
 
 
 /*--CONTACT--*/
-.contact-section h1{
-     font-size: 2.5rem;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin: auto;
-     padding-bottom: 1rem;
-     font-weight: 500;
-     text-decoration: underline;
-     text-transform: uppercase;
-     font-family:'Nixie One', cursive;
-     color: rgb(143, 1, 1);
-}
-.contact-right {
-    height: 29rem;
-    background-image: url(../images/Anabelle-Logo2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: scroll, scroll;
-    object-fit: cover;
-    -o-object-fit: cover; 
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 29%;
-    margin-top: -4rem;
-    margin-bottom: 8rem
-    ;
- }
+    .contact-section h1{
+       font-size: 2.5rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       padding-bottom: 1rem;
+       font-weight: 500;
+       text-decoration: underline;
+       text-transform: uppercase;
+       font-family:'Nixie One', cursive;
+       color: rgb(143, 1, 1);
+    }
 
- #contact-form{
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     width:  45%;
-     padding-left: 7%;
-     margin: auto;
-     padding-bottom: 6rem;
- }
+    .contact-right {
+        height: 29rem;
+        background-image: url(../images/Anabelle-Logo2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll, scroll;
+        object-fit: cover;
+        -o-object-fit: cover; 
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 29%;
+        margin-top: -4rem;
+        margin-bottom: 8rem;
+    }
 
-.contact-section p {
-    font-size: 1rem;
-    line-height: 1.2;
-    font-family: 'Nixie One', cursive;
-    letter-spacing: 1px;
-    position: relative;
-    padding-left: 13.6%;
-    top: 7.9rem;
+    #contact-form{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       width:  45%;
+       padding-left: 7%;
+       margin: auto;
+       padding-bottom: 6rem;
+    }
+
+    .contact-section p {
+       font-size: 1rem;
+       line-height: 1.2;
+       font-family: 'Nixie One', cursive;
+       letter-spacing: 1px;
+       position: relative;
+       padding-left: 13.6%;
+       top: 7.9rem;
+    }
+
+    .contact-section p strong {
+       font-size: 1.2rem;
+       font-family: 'Nixie One', cursive;
+       text-decoration: underline;
+       margin-bottom: 0;
+    }
+
+
+    #contact-form .form-control {
+       background-color:rgb(80, 8, 8);
+       box-shadow: none;
+       border: 1px solid #ffffff;
+       outline: medium none;
+       font-size: 0.8rem;
+       line-height:1.1;
+       height:auto;
+       color: #ffffff;
+       margin: 2px auto;
+       transition: all .2s ease-in-out;
+       text-align: left;
+    }
+
+    #contact-form .form-control:hover, #contact-form .form-control:focus {
+       box-shadow: none;
+       background:rgb(143, 1, 1);
+    }
+
+    #contact-form textarea.form-control {
+       min-height: 8rem;
+       border: 1px solid #ffffff;
+    }
+
+    #contact-form span.sub-text {
+       color: rgb(255, 255, 255);
+       font-size: 0.6rem;
+       position: relative;
+    }
+
+    #contact-form button#valid-form {
+       background: rgb(80,8,8);
+       font-family: 'Nixie One', cursive;
+       text-transform: uppercase;
+       font-size: 0.9rem;
+       color: #ffffff;
+       border-radius: 2rem;
+       border: 1px solid #ffffff;
+       display: inline-block;
+       width: 40%;
+       margin-left: 30%;
+       margin-top: 1rem;
+    }
+
+    #contact-form button#valid-form:hover {
+        background: rgb(143, 1, 1);
+    }
+
+
+@media screen and (max-width: 768px){
+    .contact-section h1 {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        position: relative;
+        bottom: 24rem;
+        margin: 0;
+    }
+
+   .contact-section p {
+       position: relative;
+       top: -24rem;
+       padding-left: 3%;
+    }
+
+    #contact-form{
+       position: relative;
+       bottom: 25rem;
+       width:  96%;
+       left: 2%;
+       padding-left: 0;
+       margin: 0;
+    }
     
+    .contact-right {
+       background-image: url(../images/Anabelle-Logo2.png);
+       height: 30rem;
+       margin-top: 0rem;
+       left: 8%;
+       width: 75%;
+       position: relative;
+       bottom: 26rem;
+       margin-bottom: -22rem; }
+    }
+
+    @media screen and (max-width: 600px){
+        .contact-section h1{
+            font-size: 2rem;
+            padding-bottom: 1rem;
+            text-align: center;
+            position: relative;
+            bottom: 24rem;
+            margin: 0;
+        }
+    
+       .contact-section p {
+           position: relative;
+           top: -24rem;
+           padding-left: 3%;
+        }
+    
+        #contact-form{
+           position: relative;
+           bottom: 25rem;
+           width:  96%;
+           left: 2%;
+           padding-left: 0;
+           margin: 0;
+        }
+        
+        .contact-right {
+           background-image: url(../images/Anabelle-Logo2.png);
+           height: 30rem;
+           margin-top: 0rem;
+           left: 8%;
+           width: 75%;
+           position: relative;
+           bottom: 26rem;
+           margin-bottom: -22rem; }
+        }
+
+
+@media screen and (max-width: 480px) {
+    .contact-section h1{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        position: relative;
+        bottom: 25rem;
+        margin: 0;
+    }
+
+   .contact-section p {
+        position: relative;
+        top: -25rem;
+        padding-left: 2%;
+    }
+
+    #contact-form{
+        position: relative;
+        bottom: 26rem;
+        width:  96%;
+        left: 2%;
+        padding-left: 0;
+        margin: 0;
+    }
+
+
+    .contact-right {
+        background-image: url(../images/Anabelle-Logo2.png);
+        height: 27rem;
+        margin-top: 0rem;
+        left: 4%;
+        width: 75%;
+        position: relative;
+        bottom: 25rem;
+        margin-bottom: -20rem;
+    }
 }
 
-.contact-section p strong {
-    font-size: 1.2rem;
-    font-family: 'Nixie One', cursive;
-    text-decoration: underline;
-    margin-bottom: 0;
+@media screen and (max-width: 420px) {
+    .contact-right {
+        background-image: url(../images/Anabelle-Logo2.png);
+        height: 23rem;
+        margin-top: -4rem;
+        left: 5%;
+        width: 75%;
+        position: relative;
+        bottom: 25rem;
+        margin-bottom: -22rem;
+    }
 }
 
+@media screen and (max-width: 400px) {
+    .contact-section h1{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        position: relative;
+        bottom: 25rem;
+        margin: 0;
+    }
 
-#contact-form .form-control {
-    background-color:rgb(80, 8, 8);
-    box-shadow: none;
-    border: 1px solid #ffffff;
-    outline: medium none;
-    font-size: 0.8rem;
-    line-height:1.1;
-    height:auto;
-    color: #ffffff;
-    margin: 2px auto;
-    transition: all .2s ease-in-out;
-    text-align: left;
-}
+   .contact-section p {
+       position: relative;
+       top: -25rem;
+       padding-left: 2%;
+    }
 
-#contact-form .form-control:hover, #contact-form .form-control:focus {
-   box-shadow: none;
-   background:rgb(143, 1, 1);
-}
+    #contact-form{
+       position: relative;
+       bottom: 26rem;
+       width:  96%;
+       left: 2%;
+       padding-left: 0;  
+       margin: 0;
+    }
 
-#contact-form textarea.form-control {
-    min-height: 8rem;
-    border: 1px solid #ffffff;
-}
 
-#contact-form span.sub-text {
-    color: rgb(255, 255, 255);
-    font-size: 0.6rem;
-    position: relative;
-}
-
-#contact-form button#valid-form {
-    background: rgb(80,8,8);
-    font-family: 'Nixie One', cursive;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    color: #ffffff;
-    border-radius: 2rem;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 1rem;
-}
-
-#contact-form button#valid-form:hover {
-    background: rgb(143, 1, 1);
+    .contact-right {
+        background-image: url(../images/Anabelle-Logo2.png);
+        height: 27rem;
+        margin-top: 0rem;
+        left: 0%;
+        width: 75%;
+        position: relative;
+        bottom: 27rem;
+        margin-bottom: -25rem;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -635,100 +1299,38 @@ margin: 8rem auto;
         position: relative;
         bottom: 22rem;
         margin: 0;
-   }
+    }
 
    .contact-right {
-    background-image: url(../images/Anabelle-Logo2.png);
-    height: 25rem;
+        background-image: url(../images/Anabelle-Logo2.png);
+        height: 25rem;
         margin-top: -6rem;
         left: 4%;
-       width: 92%;
+        width: 92%;
+        position: relative;
+        bottom: 16rem;
+        margin-bottom: -12rem;
+    }
+
+    #contact-form{
        position: relative;
-       bottom: 16rem;
-       margin-bottom: -12rem;
-    ;
- }
+       bottom: 21rem;
+       width:  96%;
+       left: 2%;
+       padding-left: 0;
+       margin: 0;
+    }
 
- #contact-form{
-    position: relative;
-    bottom: 20rem;
-    width:  96%;
-    left: 2%;
-    padding-left: 0;
-    
-    margin: 0;
-}
-
-.contact-section p {
-    position: relative;
-    top: -19rem;
-    padding-left: 2%;
-}
-
-}
-
-
-/*@media screen and (max-width: 1000px){
-
-#contact{
-  padding-top: 15rem;
-}
-    
-#contact-form {
-    position: relative;
-   margin-top: 0rem;
-}
-
-.contact-section {
-   position: relative;
-}
-
-.contact-left p { 
-   font-size: 0.6rem;
-}
-
-.contact-left .paragraph {
-    font-size: 1.6rem;
-    line-height: 1.2;
-}
-
-.contact-left p strong {
-    font-size: 2.5rem;
-}
-
-#contact-form .form-control {
-    border-radius: 1rem;
-    padding: 1rem 1rem;
-    font-size: 1.1rem;
-    line-height: 1.1;
-}
-
-#contact-form textarea.form-control {
-    min-height: 8rem;
-}
-
-#contact-form button#valid-form {
-    padding: 1rem 4.2rem;
-    font-size: 1rem;
-    margin-top: 2px;
-}
-
-.contact-right {
-
-    width: 80%;
-    margin: auto;
-    margin-bottom: 5rem;
-}
+    .contact-section p {
+       position: relative;
+       top: -19rem;
+       padding-left: 2%;
+    }
 }
 
 /*--CONTACT--*/
 
-
-
-
-
 /*--GOTOP-BTN--*/
-
     .gotopbtn .fas{
         font-size: 1.4rem;
         color: rgb(0, 0, 0);
@@ -744,122 +1346,103 @@ margin: 8rem auto;
         text-decoration: none;
         text-align: center;
         line-height: 2.9rem;
-        
-}
+    }
 
     .gotopbtn:hover {
         
         background: rgb(143, 1, 1);
     }
 
-     @media screen and (max-width:1000px){
+@media screen and (max-width:1000px){
     .gotopbtn{
-    display: none;   
+       display: none;   
     }
-    }
-
-
-    @media screen and (max-width:320px){
-    .gotopbtn{
-     display: none;   
-    }
-    }
-
-
-
+}
 /*--GOTOP-BTN--*/
-
-
-/*--SOCIAL-MEDIA-ICONS--*/
-
 
 
 
 /*--FOOTER--*/
+   .container-fluid {
+       padding-right: 0;
+       padding-left: 0;
+    }
 
-.container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-}
+   .inner-footer {
+       margin: 0;
+       padding: 0;
+       background: rgb(29, 6, 6);
+    }
 
-.inner-footer {
-    margin: 0;
-    padding: 0;
-    background: rgb(29, 6, 6);
+   .outer-footer {
+       padding: 1rem;
+       text-align: center;
+       color:white;
+       font-size: 14px;
+       background: rgb(143, 1, 1);
+       line-height: 0;
+       width: 100%;
+       font-family: 'Nixie One', cursive;
+    }
+
+   .social-links ul {
+       position: relative;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin: 0rem 16rem;
+       padding: 1rem;
+    } 
+
+   .social-links ul li {
+       list-style: none;
+       margin: 0rem auto;
+    }
+
+   .social-links ul li a {
+       position: relative; 
+       display: block;
+       width: 2.5rem;
+       height: 2.5rem;
+       text-align: center;
+       background: rgb(143, 1, 1);
+       border-radius: 50%;
+       color: rgb(255, 255, 255);
+       transition: .5s;
+    }
+
+
+
+   .social-links ul li a::before {
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       border-radius: 50%;
+       background: #f51b1b;
+       transition: .5s;
+       transform: scale(.9);
+       z-index: -1;
+    }
     
-}
-
-.outer-footer {
-    padding: 1rem;
-    text-align: center;
-    color:white;
-    font-size: 14px;
-    background: rgb(143, 1, 1);
-    line-height: 0;
-    width: 100%;
-    font-family: 'Nixie One', cursive;
-}
-.social-links ul {
-    position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0rem 16rem;
-  padding: 1rem;
-
-} 
-
-.social-links ul li {
-    list-style: none;
-    margin: 0rem auto;
-}
-
-.social-links ul li a {
-    position: relative; 
-    display: block;
-    width: 2.5rem;
-    height: 2.5rem;
-    text-align: center;
-  background: rgb(143, 1, 1);
-    border-radius: 50%;
-    color: rgb(255, 255, 255);
-    transition: .5s;
-}
-
-
-
-.social-links ul li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: #f51b1b;
-    transition: .5s;
-    transform: scale(.9);
-    z-index: -1;
-}
-.social-links ul .fab {
-    margin-top: 0.5rem;
-    font-size: 1.5rem;
-}
+    .social-links ul .fab {
+       margin-top: 0.5rem;
+       font-size: 1.5rem;
+    }
     
+   .social-links ul li a:hover::before {
+       transform: scale(1.1);
+       box-shadow: 0 0 40px #ee0505;
+    }
 
-
-.social-links ul li a:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 40px #ee0505;
-}
-
-
-.social-links ul li a:hover {
-  color: #ee0505;
-  box-shadow: 0 0 10px #f8bf23;
-  text-shadow: 0 0 10px #f1c70a;
-}
+   .social-links ul li a:hover {
+       color: #ee0505;
+       box-shadow: 0 0 10px #f8bf23;
+       text-shadow: 0 0 10px #f1c70a;
+    }
 
 @media screen and (max-width:360px) {
     .container-fluid {
@@ -868,11 +1451,20 @@ margin: 8rem auto;
     }
 
     .social-links ul {
-      margin: 0rem 0rem;
+        margin: 0rem 0rem; 
+    } 
+}
+
+@media screen and (max-width:480px) {
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .social-links ul {
+        margin: 0rem 0rem;
       
     
     } 
 }
-
-
-/*--FOOTER--*/
+/*--FOOTER--*/}
